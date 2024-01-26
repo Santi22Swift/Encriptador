@@ -1,0 +1,155 @@
+body{
+    background-color: #E5E5E5;
+}
+
+
+.logo-header {
+    margin: 15px;
+}
+
+.input-Usuario{
+    width: 40%; /* Puedes ajustar este valor según tus necesidades */
+    height: 550px; /* Puedes ajustar este valor según tus necesidades */
+    padding: 15px; /* Ajusta el relleno interno según tus necesidades */
+    box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total */
+    background: #E5E5E5;
+    text-align: left;
+    resize: vertical; 
+    margin: 30px 150px;
+    border: none;
+    resize: none;
+    outline: none; 
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #8e8e8e;
+    overflow-y: hidden;
+}
+
+
+
+.input-Usuario::placeholder{
+    color: darkblue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #8e8e8e;
+    text-align: left;
+}
+
+
+.botones{
+    margin: 30px 150px;
+}
+
+.botones-texto{
+    margin: 10px;
+}
+
+.boton-encriptar {
+    background-color: #0A3871; 
+    color: #fff; 
+    font-size: 18px; 
+    padding: 15px 80px; 
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 24px;
+}
+
+.boton-desencriptar{
+    background-color: #0A2F71; 
+    color: #fff; 
+    font-size: 18px; 
+    padding: 15px 80px; 
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.boton-encriptar:hover, .boton-desencriptar:hover{
+    background-color: #18549E;
+}
+
+
+#rectangulo-largo {
+    background-color: white;
+    width: 380px; /* Ajusta el ancho del rectángulo según tus necesidades */
+    height: 810px; /* Ajusta la altura del rectángulo según tus necesidades */
+    position: fixed;
+    top: 40px;
+    right: 70px;
+    border-radius: 32px;
+    display: inline-block;
+}
+
+
+.rectangulo-largo-imagen {
+    padding: 0; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.contenido-texto{
+    text-align: center;
+    margin-top: 550px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contenido-texto h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: top;
+    line-height: 120%;
+}
+
+.contenido-texto p {
+    font-size: 16px;
+    text-align: top;
+
+}
+
+.boton-copiar {
+    width: 280px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid #0A2F71;
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;  
+    right: 120px; 
+}
+
+
+.texto-resultado {
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border: 1px solid #0A2F71;
+    cursor: pointer;
+    position: absolute;
+    bottom: 200px;  
+    right: 85px;   
+    border: none;
+    resize: none;
+    outline: none;
+    overflow-y: hidden;
+    display: none;
+}
+
+.oculto {
+    display: none; 
+}
+
